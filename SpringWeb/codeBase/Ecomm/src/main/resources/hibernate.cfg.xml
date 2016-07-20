@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+    "-//Hibernate/Hibernate Configuration DTD//EN"
+    "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd"> 
+    
+<hibernate-configuration>
+
+ <session-factory>        
+        <mapping class="com.mart.user.entity.User" />
+        <mapping class="com.mart.user.entity.Registration" />
+        <mapping class="com.mart.user.entity.Cart"/>
+     	<mapping class="com.mart.user.entity.OrderStatus"/>
+     	<mapping class="com.mart.user.entity.PaymentStatus"/>
+     	<mapping class="com.mart.user.entity.Login"/>
+     	<mapping class="com.mart.user.entity.Product"/>
+     	<mapping class="com.mart.user.entity.Pin"/>
+     	<mapping class="com.mart.user.entity.ProductCategory"/>
+     	<mapping class="com.mart.user.entity.ProductSubCategory"/>
+     	<mapping class="com.mart.user.entity.Registration"/>
+     	<mapping class="com.mart.user.entity.ShipmentStatus"/>
+     	<mapping class="com.mart.user.entity.UserAddress"/>
+     	<mapping class="com.mart.user.entity.UserAddressType"/>
+     	<mapping class="com.mart.user.entity.UserOrder"/>
+     	<mapping class="com.mart.user.entity.Coupons"/>
+     	<mapping class="com.mart.user.entity.Invoice"/>
+     	<mapping class="com.mart.user.entity.UserToken"/>
+ </session-factory>  
+         
+        <!-- <mapping class="com.test.entity.User"/>
+        <mapping class="com.test.entity.Invoice"/>
+     	<mapping class="com.test.entity.Cart"/>
+     	<mapping class="com.test.entity.OrderStatus"/>
+     	<mapping class="com.test.entity.PaymentStatus"/>
+     	<mapping class="com.test.entity.Login"/>
+     	<mapping class="com.test.entity.Product"/>
+     	<mapping class="com.test.entity.Pin"/>
+     	<mapping class="com.test.entity.ProductCategory"/>
+     	<mapping class="com.test.entity.ProductSubCategory"/>
+     	<mapping class="com.test.entity.Registration"/>
+     	<mapping class="com.test.entity.ShipmentStatus"/>
+     	<mapping class="com.test.entity.UserAddress"/>
+     	<mapping class="com.test.entity.UserAddressType"/>
+     	<mapping class="com.test.entity.UserOrder"/>
+     	<mapping class="com.test.entity.Coupons"/>
+ -->
+
+ 	
+</hibernate-configuration>
+
+

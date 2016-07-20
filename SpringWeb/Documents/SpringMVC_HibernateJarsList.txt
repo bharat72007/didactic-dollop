@@ -1,0 +1,49 @@
+List of Jars for SpringMVC-Hibernate Rest Project
+--------------------------------------------------
+
+
+
+spring-aop-3.2.1.RELEASE.jar
+spring-aspects-3.2.1.RELEASE.jar
+spring-beans-3.2.1.RELEASE.jar
+spring-build-src-3.2.1.RELEASE.jar #
+spring-context-3.2.1.RELEASE.jar
+spring-context-support-3.2.1.RELEASE.jar
+spring-core-3.2.1.RELEASE.jar
+spring-expression-3.2.1.RELEASE.jar
+spring-instrument-3.2.1.RELEASE.jar
+spring-instrument-tomcat-3.2.1.RELEASE.jar 
+spring-jdbc-3.2.1.RELEASE.jar
+spring-jms-3.2.1.RELEASE.jar
+spring-orm-3.2.1.RELEASE.jar
+spring-oxm-3.2.1.RELEASE.jar
+spring-struts-3.2.1.RELEASE.jar
+spring-test-3.2.1.RELEASE.jar
+spring-tx-3.2.1.RELEASE.jar
+spring-web-3.2.1.RELEASE.jar
+spring-webmvc-3.2.1.RELEASE.jar
+spring-webmvc-portlet-3.2.1.RELEASE.jar
+
+----
+antlr-2.7.6
+asm-3.1
+com.mysql.jdbc_5.1.5
+com.springsource.org.aopalliance-1.0.0.jar
+commons-collections-3.1.jar
+commons-dbcp-1.4.jar
+commons-lang3-3.3.2.jar
+commons-logging-1.1.3.jar
+dom4j-1.6.1.jar
+hibernate-jpa-2.0-api-1.0.0.Final.jar
+hibernate3.jar #
+javassist-3.12.0.GA.jar
+jersey-bundle-1.18.jar
+jstl-1.2.jar
+jta-1.1.jar
+log4j.jar
+org.apache.commons.pool.jar
+slf4j-api-1.6.1.jar
+
+
+Description	Resource	Path	Location	Type
+Project 'SpringExample' is missing required library: 'C:\Users\jaibh01\.m2\repository\org\aopalliance\com.springsource.org.aopalliance\1.0.0\com.springsource.org.aopalliance-1.0.0.jar'	SpringExample		Build path	Build Path Problem

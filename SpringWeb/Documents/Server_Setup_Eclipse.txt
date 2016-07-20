@@ -1,0 +1,26 @@
+Tomcat 7 Setup on Eclipse Kepler 4.2
+
+Steps :
+1)Download Tomcat 7 from Apache Site and Save it into any Location of your choice.
+2)Open Eclipse and Go to Server View : Windows --> Show View --> Servers
+3)In the Server View click on add a new Server.
+4)Now Server options are shown in the Dialog Box. If not
+   Then we need to Install WTP (Web Tools Platform)Plugins
+   To Install WTP Plugins , below are the Steps :
+   a)In Eclipse go to Help --> Install New Software
+   b)Select the available software site, in case of Kepler : Kepler - http://download.eclipse.org/releases/kepler
+   c)In the Web Category option :
+     Check on JST WTP , WTP and WTP Server plugins
+   d)Once Installed restart Eclipse
+   e)Now you can see Server options in add new server dialog.
+5)Expand Apache and select tomcat 7 server.
+6)In next Dialog, Browse and Provide location to tomcat7(where you have downloaded)
+7)If all done, then a new Server is added to server view and also on Project Explorer View.
+  In Server View, Select Server and Right Click and select properties.
+  Click on switch location and it should be Server at localhost.server
+  Apply the changes and click Ok
+8)On Explorer View expand Server project and click on added Server.
+  In Server Location, Select Radio Button[Use Tomcat Installation] and save
+9)Once done Create a Dynamic Web Project, Run as Run on Server
+  Access the url and see if it is deployed properly or not
+  

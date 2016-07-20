@@ -1,0 +1,40 @@
+Steps:
+0)Put Mysql/Bins in Path Variable 
+1)Start mysql (Server) 
+  Command : mysqld
+  To Stop Mysql server 
+  Command : mysqladmin -u root shutdown
+2) Now In Eclipse Install JDBC driver (for mysql) from http://www.java2s.com/Code/Jar/c/Downloadcommysqljdbc515jar.htm
+3)Put JDBC Driver in your Java ClassPath in Eclipse
+4)Run any Test Program involving JDBC api's: 
+    http://www.mkyong.com/jdbc/how-to-connect-to-mysql-with-jdbc-driver-java/
+
+Ex:
+Connect to Exisitng Db (test)
+connection = (Connection) DriverManager.getConnection("jdbc:mysql://localhost:3306/test","root","");
+
+Connect to sql :No Db before Hand
+connection = (Connection) DriverManager.getConnection("jdbc:mysql://localhost:3306?user=root");
+ 	
+
+
+---------------------------Dynamic Project with Hibernate -------------------------------------------------------------------
+Adding Service with Hibernate:
+
+1)Open Eclipse and Create Dynamic Web Project 
+   -->Add Project Name and Add Target Runtime as : Tomcat 7, Click Next
+   -->Select src folder and click next
+   -->Check on Generate Deployment Descriptor, click finish
+2)Add the following Hibernate and Web Service Jars(Jersy and asm) into lib folder
+3)Create hibernate.cfg.xml
+4)Create Doa,application and hibernate packages
+5)Create classes in these packages.
+6)Update web.xml
+7)Run as Tomcat.   
+  
+ 	
+	
+	
+	
+	
+	

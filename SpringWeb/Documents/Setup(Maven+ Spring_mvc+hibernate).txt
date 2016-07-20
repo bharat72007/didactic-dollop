@@ -1,0 +1,52 @@
+Mavenized Spring MVC + Hibernate Set-up in Eclipse:
+Prerequisite :
+  1)Install Mysql 
+  2)Install Eclipse [Latest Kepler Version], with Web and Maven plug ins
+  3)Install Maven in your Machine.
+  
+Steps :
+1)In Eclipse, create a new Java Dynamic Web Project
+2)Set JRE 7, click Next
+3)In Configure Project Dialog :
+  a)Delete src folder
+  b)Add folders named as : src\main\java [For Java Files]
+        src\main\resources [resources viz: properties files, xml, xsd etc]
+		src\main\test [Unit tests]
+		src\main\webapp [Web app configurations]
+	Click Next
+  c)Check on web.xml option [Change folder to src\main\webapp]
+  d)Click Finish
+4)Select the Project, Right click on the Project, Click on Configure and Select convert to maven project
+  One Dialog will popup, goto Packaging option and select War option, Click Finish.
+5)Update pom.xml with all dependencies [You can find it, with ecomm project].
+6)Add the Maven Dependencies :
+  Right click on the Project and select Properties
+  Select Deployment Assembly, Click on Add Button, Select "Java Build Path Entries" , Select "Maven Dependencies" and then click apply , ok
+7)Add the respective classes in Folder
+
+
+
+Tutorial followed :
+1) https://www.youtube.com/watch?v=rdYQOqxq9F0
+2) http://josephbagnes.geeksexception.com/
+
+Working Maven projects are: 
+ a)Ecomm
+ b)Project can be downloaded from below location : 
+   Import the Project as Maven project in Eclipse. 
+   http://www.mediafire.com/download/hcx3c8wsasd5qvn/CRUD-spring-hibernate-tutorial.zip
+ 
+
+
+Converting xsd to POJO classes in eclipse :
+Steps:
+1)Add JAXB Plugin to eclipse
+2)Set the Installed JRE path to jdk
+    Go to Windows, Click preferences, Java, then Installed JRE's, Edit the path to JDK
+3)Right click on xsd, select Generate, JAXB Classes.	
+    
+  
+  
+  
+
+

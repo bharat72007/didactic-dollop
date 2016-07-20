@@ -1,0 +1,33 @@
+Maven For Web Application Java :
+
+1)Setup Maven.
+2)Create Web Application Template:
+   -->Execute the following cmd:
+      mvn archetype:generate -DgroupId=com.ecommerce -DartifactId=RequestValidationMvn -DarchetypeArtifactId=maven-archetype-webapp -DinteractiveMode=false
+      Where com.ecommerce is Group Id
+	  and RequestValidationMvn is Artifact Id.
+	-->Above cmd will create a folder named : RequestValidationMvn
+       Inside the RequestValidationMvn folder we have one file : a)pom.xml and one dir b)src
+    -->Inside src/main, create one dir : java [where all java classes will reside]
+    -->Inside java folder , create packages with starting namespace :com.ecommerce
+    -->Some conventions :
+       For Dao : com.ecommerce.dao
+         service: com.ecommerce.service
+         controller: com.ecommerce.controller
+         entities: com.ecommerce.entity
+3)Create eclipse project from maven: 
+    mvn eclipse:eclipse -Dwtpversion=2.0
+4)Some important commands:
+   -->mvn build
+   -->mvn install
+   -->mvn test
+   -->mvn package   
+   
+5)Porting maven project into eclipse :
+    -->mvn install
+    -->mvn package
+    -->mvn eclipse:eclipse -Dwtpversion=2.0
+    -->In eclipse -->Import -->Existing maven project --> Give correct path of your project --> After importing the project -->Right click on project
+           -->Properties -->Deployment Assembly --> Select Libraries --> Dependency jars [Created by maven] -->Apply -->Ok 
+        For More check : http://stackoverflow.com/questions/11227395/java-lang-classnotfoundexception-org-springframework-web-servlet-dispatcherserv		   
+	
